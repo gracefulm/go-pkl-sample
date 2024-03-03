@@ -1,0 +1,10 @@
+// 開発時に実際に読み込む設定
+amends "../appConfig.pkl"
+
+appConfig = new {
+    host = "127.0.0.1"
+    port = 8080
+    logConfig = new {
+        logLevel = "DEBUG"
+    }
+}
